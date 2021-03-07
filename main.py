@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 sns.set(color_codes=True)
 
 # Create the dataframe
-df = pd.read_csv("C:/Users/aidut/Documents/Kaggle/melb_data.csv")
+df = pd.read_csv("<filepath>/melb_data.csv")
 # Format the float numbers to 2 decimals
 pd.set_option('display.float_format', '{:.2f}'.format)
 
